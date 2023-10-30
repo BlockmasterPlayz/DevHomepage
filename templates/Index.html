@@ -18,14 +18,36 @@
             color: white;
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        button{
+            border-radius: 15px;
+            border-width: 0.1px;
+        }
     </style>
 </head>
 <body class="HouseStyle">
-    <h1>Welcome to Dev search!</h1>
+    <h1 style="text-align: center;">Welcome to Dev search!</h1>
 
-    <form action="/searchtext", method="POST">
-        <input type="text" name="query">
-        <button>Search</button>
+    <form action="/searchtext", method="POST", style="text-align: center;">
+        <input type="text" name="query", style="border-radius: 15px;">
+        <button><img src="/static/Search.png" alt="Search" width="15px", height="15px"></button>
     </form>
+
+    <form action="/github">
+        <button><img src="/static/Github.png" alt="Github", width="30px", height="30px"></button>
+    </form>
+
+    <form action="/Stackoverflow">
+        <button><img src="/static/Stackoverflow.png" alt="Stackoverflow", width="30px", height="30px"></button>
+    </form>
+
+    <form action="/discord">
+        <button><img src="/static/discord.png" alt="discord", width="30px", height="30px"></button>
+    </form>
+
+    <form action="/notion">
+        <button><img src="/static/notion.png" alt="notion", width="30px", height="30px"></button>
+    </form>
+
 </body>
 </html>
