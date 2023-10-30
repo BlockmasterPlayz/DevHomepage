@@ -40,5 +40,10 @@ def notion():
     webbrowser.open("https://www.notion.so")
     return render_template("Index.html")
 
+@app.route("/GPT")
+def GPT():
+    webbrowser.open("https://chat.openai.com")
+    return render_template("Index.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
