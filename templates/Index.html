@@ -29,35 +29,38 @@
 <body class="HouseStyle">
     <h1 style="text-align: center;">Welcome to Dev search!</h1>
     
-    <form action="/searchtext", method="POST", style="text-align: center;">
-        <input type="text" name="query", style="border-radius: 15px;">
-        <button><img src="/static/Search.png" alt="Search" width="15px", height="15px"></button>
+    <form action="https://www.google.com/search" method="GET" target="_blank" style="text-align: center;">
+        <input type="text" name="q" style="border-radius: 15px;">
+        <button type="submit"><img src="/static/Search.png" alt="Search" width="15px" height="15px"></button>
     </form>
     
 
-    <form action="/github">
+    <a href="https://github.com">
         <button><img src="/static/Github.png" alt="Github", width="30px", height="30px"></button>
-    </form>
-    
+    </a>
+    <br>
 
-    <form action="/Stackoverflow">
+    <a href="https://stackoverflow.com">
         <button><img src="/static/Stackoverflow.png" alt="Stackoverflow", width="30px", height="30px"></button>
-    </form>
+    </a>
+    <br>
     
 
-    <form action="/discord">
-        <button><img src="/static/discord.png" alt="discord", width="30px", height="30px"></button>
-    </form>
+    <a href="https://discord.com">
+        <button><img src="/static/discord.png" alt="Discord", width="30px", height="30px"></button>
+    </a>
+    <br>
     
 
-    <form action="/notion">
-        <button><img src="/static/notion.png" alt="notion", width="30px", height="30px"></button>
-    </form>
+    <a href="https://notion.so">
+        <button><img src="/static/notion.png" alt="Notion", width="30px", height="30px"></button>
+    </a>
+    <br>
     
 
-    <form action="/GPT">
+    <a href="https://chat.openai.com">
         <button><img src="/static/GPT.png" alt="ChatGPT", width="30px", height="30px"></button>
-    </form>
+    </a>
 
 </body>
 </html>
