@@ -6,23 +6,47 @@
     <title>DevHomepage | ZaakirDev</title>
 
     <style>
-        .HouseStyle{
-            /* This is temporary :) */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .HouseStyle {
             background-color: #98E4FF;
             color: black;
             font-family: Arial, Helvetica, sans-serif;
             font-size: medium;
         }
 
-        h1{
+        h1 {
             color: black;
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        button{
+        button {
             border-radius: 15px;
             border-width: 0.1px;
             background-color: #687EFF;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Add hover effect to buttons */
+        button:hover {
+            background-color: #506DEA;
         }
     </style>
 </head>
@@ -34,33 +58,40 @@
         <button type="submit"><img src="/static/Search.png" alt="Search" width="15px" height="15px"></button>
     </form>
     
+    <!-- Table of hyperlinks starts here :) -->
+    <table>
+        <tr>
+            <td>
+                <a href="https://github.com">
+                    <button><img src="/static/Github.png" alt="Github" width="30px" height="30px"></button>
+                </a>
+            </td>
 
-    <a href="https://github.com">
-        <button><img src="/static/Github.png" alt="Github", width="30px", height="30px"></button>
-    </a>
-    <br>
+            <td>
+                <a href="https://stackoverflow.com">
+                    <button><img src="/static/Stackoverflow.png" alt="Stackoverflow" width="30px" height="30px"></button>
+                </a>
+            </td>
 
-    <a href="https://stackoverflow.com">
-        <button><img src="/static/Stackoverflow.png" alt="Stackoverflow", width="30px", height="30px"></button>
-    </a>
-    <br>
-    
+            <td>
+                <a href="https://discord.com">
+                    <button><img src="/static/discord.png" alt="Discord" width="30px" height="30px"></button>
+                </a>
+            </td>
 
-    <a href="https://discord.com">
-        <button><img src="/static/discord.png" alt="Discord", width="30px", height="30px"></button>
-    </a>
-    <br>
-    
+            <td>
+                <a href="https://notion.so">
+                    <button><img src="/static/notion.png" alt="Notion" width="30px" height="30px"></button>
+                </a>
+            </td>
 
-    <a href="https://notion.so">
-        <button><img src="/static/notion.png" alt="Notion", width="30px", height="30px"></button>
-    </a>
-    <br>
-    
-
-    <a href="https://chat.openai.com">
-        <button><img src="/static/GPT.png" alt="ChatGPT", width="30px", height="30px"></button>
-    </a>
-
+            <td>
+                <a href="https://chat.openai.com">
+                    <button><img src="/static/GPT.png" alt="ChatGPT" width="30px" height="30px"></button>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <!-- Table of hyperlinks ends here :) -->
 </body>
 </html>
